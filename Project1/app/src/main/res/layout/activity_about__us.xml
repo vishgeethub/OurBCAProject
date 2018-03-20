@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.example.vishal.project1.About_Us">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Application"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="The “ALL INDIA NGO’s” is a mobile application developed using the Android Platform.Objective of creating this application is to connect NGOs and people. “All India NGO’s” application is a platform for various NGO’s and social service groups to provide information and organize social work related activities, events, charity etc. Using this application existing and new volunteers can easily register and participate in various kinds of events and activities of NGO. With the help of this application they can share their different ideas about shaping the society. This application is for all the parties to contribute to society i.e. Government, Individual volunteer etc."
+        android:id="@+id/textView14"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        />
+
+
+</RelativeLayout>

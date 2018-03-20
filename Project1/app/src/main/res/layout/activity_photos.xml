@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vishal.project1.Photos">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Select Album to View Photos"
+    android:textColor="@color/colorAccent"
+    android:textStyle="italic"
+    android:layout_marginBottom="3dp"/>
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gv"
+                android:columnWidth="90dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="1dp"
+                android:horizontalSpacing="1dp"
+                android:gravity="center"
+                ></GridView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

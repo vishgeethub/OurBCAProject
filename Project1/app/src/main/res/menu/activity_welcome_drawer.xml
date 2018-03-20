@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news"
+            android:icon="@mipmap/news"
+            android:title="News" />
+        <item
+            android:id="@+id/charity"
+            android:icon="@mipmap/charity"
+            android:title="Charity" />
+        <item
+            android:id="@+id/activities"
+            android:icon="@mipmap/activity"
+            android:title="Your Activities" />
+        <item
+            android:id="@+id/event"
+            android:icon="@mipmap/event"
+            android:title="Events" />
+        <item
+            android:id="@+id/ngo"
+            android:icon="@mipmap/ngo"
+            android:title="Search NGO" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@mipmap/profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/change_password"
+            android:icon="@mipmap/changepassword"
+            android:title="Change Password" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/feedback"
+                android:icon="@mipmap/feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/about"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@mipmap/contact"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Logout"
+        android:icon="@mipmap/logoout"
+        android:title="Logout" />
+
+
+</menu>

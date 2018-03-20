@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F1F7F9"
+    android:layout_width="match_parent"
+    android:padding="3dp"
+    android:layout_marginBottom="2dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="140dp"
+        android:id="@+id/iv_event" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E5EEF0">
+    <TextView android:id="@+id/txtevent_name"
+        android:layout_margin="5dp"
+        android:text="Event Name"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="right"
+        android:id="@+id/txtevent_date"
+        android:text="12/12/2017"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_width="90dp"
+        android:layout_height="22dp" />
+
+    </LinearLayout>
+</LinearLayout>

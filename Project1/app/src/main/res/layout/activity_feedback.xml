@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    tools:context="com.example.vishal.project1.Feedback">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17dp"
+                android:layout_marginBottom="5dp"
+                android:text="Thank you for completing our online feedback form. Your feedback helps us understand what we do will and where we can improve."/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/feedback_txtbox"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:background="@drawable/back"/>
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:text="Submit"
+                android:background="@color/blueshade"
+                android:id="@+id/button_feedback"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

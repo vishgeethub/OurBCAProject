@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vishal.project1">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/new_icon"
+        android:label="All India NGO&apos;s"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Registration"
+            android:label="Registration" />
+        <activity
+            android:name=".Login"
+            android:label="Login" />
+        <activity
+            android:name=".Forgot_Password"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".Change_Password"
+            android:label="Change Password" />
+        <activity
+            android:name=".MainActivity"
+            android:label="All India NGO&apos;s"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Welcome"
+            android:label="All India NGO&apos;s"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".News"
+            android:label="News" />
+        <activity
+            android:name=".About_Us"
+            android:label="About Us" />
+        <activity
+            android:name=".Event"
+            android:label="Events" />
+        <activity android:name=".Category" />
+        <activity
+            android:name=".Profile"
+            android:label="My Profile" />
+        <activity
+            android:name=".Edit_Profile"
+            android:label="Edit Profile" />
+        <activity
+            android:name=".Show_News"
+            android:label="News" />
+        <activity
+            android:name=".Event_Details"
+            android:label="Event Details" />
+        <activity
+            android:name=".NGO"
+            android:label="Search NGO" />
+        <activity
+            android:name=".show_ngo"
+            android:label="NGO Details" />
+        <activity
+            android:name=".My_Activity"
+            android:label="My Activities" />
+        <activity
+            android:name=".Photos"
+            android:label="Albums" />
+        <activity
+            android:name=".Charity"
+            android:label="Charity" />
+        <activity
+            android:name=".Show_My_Activity"
+            android:label="My Activities" />
+        <activity android:name=".PayUMoneyActivity" />
+        <activity
+            android:name=".List_Charity"
+            android:label="My Charity" />
+        <activity
+            android:name=".Album_Pic"
+            android:label="Pictures" />
+        <activity
+            android:name=".NGO_Activity"
+            android:label="Activities of NGO" />
+        <activity
+            android:name=".Receipt_Charity"
+            android:label="Receipt" />
+        <activity
+            android:name=".Show_Pic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Feedback"
+            android:label="Feedback"></activity>
+    </application>
+
+</manifest>

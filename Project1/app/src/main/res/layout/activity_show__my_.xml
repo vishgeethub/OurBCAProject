@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vishal.project1.Show_My_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dear,"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/uname"
+                android:textColor="@color/colorPrimary"
+                android:text="Vishal Shah"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You have succefully registered for the following event. The details of the event are as follows."
+                android:textSize="18dp"
+                android:layout_margin="5dp"
+                android:textStyle="italic"
+                />
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Name:"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="eventname"
+                android:textSize="18dp"
+                android:id="@+id/event_name"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address:"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="address"
+                    android:textSize="18dp"
+                    android:id="@+id/address7"
+                    android:layout_marginLeft="4dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date and Time:"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12/12/2014, 12:00 pm"
+                    android:textSize="18dp"
+                    android:id="@+id/datetime"
+                    android:layout_marginLeft="4dp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You have to reach at the event address by given time. Hope you enjoy the event!! Thanks and Regards!!"
+                android:layout_margin="4dp"
+                android:textSize="18dp"
+                android:textColor="@color/blueshade"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In any case if you change your mind to attend this event you easily remove this evnt from your events list."
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/gray"
+                android:textStyle="bold"/>
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="65dp"
+                android:layout_gravity="right"
+                android:src="@mipmap/delete3"
+                android:id="@+id/remove"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
